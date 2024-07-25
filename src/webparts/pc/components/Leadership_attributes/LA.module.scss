@@ -1,0 +1,100 @@
+.LA {
+    /* Parent container styles */
+    max-width: 1920px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:  2rem 0  2rem 0;
+    background-color: #ffffff;
+}
+
+.LA_container {
+    /* Container styles */
+    width: 100%;
+    max-width: 1350px;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: #F1FFFB;
+    box-shadow: 2px 3px 52px -23px rgba(97,97,97,0.42);
+    -webkit-box-shadow: 2px 3px 52px -23px rgba(97,97,97,0.42);
+    -moz-box-shadow: 2px 3px 52px -23px rgba(97,97,97,0.42);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: row;
+    gap: .5rem;
+}
+
+.LA_title {
+    /* Title styles */
+    display: flex;
+    flex-direction: column;
+    gap:.1rem;
+    width: 20%;
+    P{
+        font-size: 30px;
+        font-weight: 700;
+        color: #044123;
+    }
+
+   .underline{
+    width: 40px;
+    height: 3px;
+    background-color: #32EB96;
+   }
+}
+
+.LA_cards {
+    /* Cards container styles */
+   width: 80%;
+   display: flex;
+   justify-content: space-around;
+   flex-direction: row;
+   gap: .5rem;
+}
+
+.card {
+    /* Individual card styles */
+   background-color: #FFFFFF;
+   border-radius: .5rem;
+   display: flex;
+   flex-direction: column;
+   width: 223px;
+   height: 261px;
+   overflow: hidden;
+   border-style: solid;
+   border-color: #AFE2D2;
+   border-width: 1px;
+   transition: transform 0.2s ease-in-out;
+}
+.card:hover {
+    transform: scale(1.03); /* Corrected syntax for scale transformation */
+}
+.top {
+    /* Top part of card styles */
+    width: 100%;
+   height: 50%;
+   display: flex;
+   justify-content: center;
+    align-items: center;
+   border-radius: 0 0 50%  50% ;
+
+   
+}
+
+
+.bottom {
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    p{
+        color: #4C4C4C;
+        font-size: 18px;
+        font-weight: 500;
+        text-align: center;
+    }
+    /* Bottom part of card styles */
+    
+}

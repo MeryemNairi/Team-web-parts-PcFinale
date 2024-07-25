@@ -1,0 +1,177 @@
+/* ------------------- Second-section styling ---------------- */
+.SecondBanner_container{
+    max-width: 1920px;
+    width: 100%;
+}
+.second_section{
+    position: relative;
+    overflow: hidden;
+    padding: 3rem;
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+    
+    
+    background: #EEFFF6;
+    height: auto; 
+  }
+  .ss_title{
+    font-weight: 700;
+    font-size: 28px;
+    color: #002920;
+  }
+  .ss_content{
+    font-weight: 400;
+    font-size: 20px;
+    color: #002920;
+  }
+  
+  .ss_cards{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: space-between;
+  
+  }
+  .ss_card{
+    width: 499px;
+    min-width: 400px;
+    height: 484px;
+    border-radius: 1.5rem;
+    background-color: white;
+    filter: drop-shadow(-1px 1px 4px #dbdbdb);
+    overflow: hidden;
+    display: grid;
+    grid-template-rows: 50% 50%;
+  
+  }
+  .card_image{
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .card_image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .card_content{
+    font-size: 14px;
+    max-height: 85px;
+    overflow-y: scroll;
+    scrollbar-width: none;
+
+  }
+  .image_filter{
+    display: block;
+  }
+  .card_image_holder{
+    background-color: #00966C;
+  }
+  .image_holder {
+    /* CSS styles for image holder */
+    display: block;
+  }
+  
+  .cart_content_holder{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    padding: 1rem 1rem 1.5rem 1rem;
+  }
+  .card_title{
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .card_button{
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+  }
+
+/* ------------------- Popup styling ---------------- */
+.popup_container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+    
+  }
+  .popup{
+   max-width: 800px;
+   width: auto;
+   height: 500px;
+   background-color: #f8f8f8;
+   display: flex;
+   flex-direction: column;
+   gap: .5rem;
+  }
+  .btnHolder{
+    
+    display: flex;
+    justify-content: flex-end;
+  }
+  .closeBtn{
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+  }
+  .closeIcon{
+    background-color: #00966C;
+    border-radius: 50%;
+    display: flex;
+    width: 25px;
+    height: 25px;
+    justify-content: center;
+    align-items: center;
+    transition: .2sec ease;
+  }
+  .closeIcon:hover{
+    background-color: #002920;
+    scale: 1.05;
+  }
+  .PopupContent{
+    
+    padding: 1rem;
+    overflow-y: scroll;
+  }
+
+
+
+  /* ------------------- button styling ---------------- */
+
+
+/* CSS */
+.Btn_model_1 {
+    background: #00966C;
+    border-radius: 999px;
+    box-shadow: 00966C 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    border: 0;
+  }
+  
+  
+  

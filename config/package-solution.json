@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "p-c-client-side-solution",
+    "id": "8f0f6fc5-654b-454e-9224-fc0b48523747",
+    "version": "1.2.0.2",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "P&C description"
+      },
+      "longDescription": {
+        "default": "P&C description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "p-c Feature",
+        "description": "The P1C page associate with google analytics",
+        "id": "a7de35ea-ef0f-4862-9c5f-583501b61a4f",
+        "version": "1.2.0.2"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/p-c.sppkg"
+  }
+}
